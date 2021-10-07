@@ -8,26 +8,7 @@ namespace Tasks1
         {
             int[] numbers = new int[100];
 
-            for (int i = 1; i <= numbers.Length; i++)
-            {
-
-                if (i % 3 == 0)
-                {
-                    Console.WriteLine(i + " is Fizz");
-                }
-
-                if (i % 5 == 0)
-                {
-                    Console.WriteLine(i + " is Buzz");
-                }
-
-                if (i % 3 == 0 &&
-                    i % 5 == 0)
-                {
-                    Console.WriteLine(i + " is FizzBuzz");
-                }
-
-            }
+            Console.WriteLine("Proverka dali moga da pushna otnovo");
         }
 
         static void Sum()
